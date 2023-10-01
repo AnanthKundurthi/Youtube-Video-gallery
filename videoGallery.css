@@ -1,0 +1,111 @@
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+  }
+  
+  .video-card {
+    width: calc(300px - 10px);
+    height: 400px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  .video-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  .thumbnail {
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+    height: 50%;
+  }
+  
+  .channel-info {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+  }
+  
+  .channel-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  .channel-name {
+    font-weight: bold;
+
+  }
+  
+  .video-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0px 15px;
+    margin-top: 0px;
+  }
+  
+  .video-stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 10px 15px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .likes,
+  .views {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .channel-name-header{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 30px;
+  }
+  .main-channel-name{
+    font-size: 50px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    
+  }
+  .main-logo{
+    width: 100px;
+    height: 100px;
+    padding: 0px 20px;
+  }
+  .Channel-description{
+    text-align: center;
+    padding: 0px 250px;
+    margin-left: 100px;
+    margin-top: -23px;
+    margin-bottom: 30px;
+  }
+  
+  .youtube-tags{
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 50px;
+    margin-top: 0px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .youtube-tags a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid rgb(68, 67, 67);
+  }
+  
